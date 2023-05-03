@@ -1,0 +1,50 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox__total {
+  color: #cc1034 !important;
+  font-weight: 600 !important;
+  font-size: 1.75rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.infoBox--selected {
+  border-top: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.infoBox--cases {
+  border-bottom: 10px solid rgba(204, 16, 52, 0.5);
+}
+
+.infoBox--recovered {
+  border-bottom: 10px solid rgba(125, 215, 29, 0.5);
+}
+
+.infoBox--deaths {
+  border-bottom: 10px solid rgba(251, 68, 67, 0.5);
+}
+
+.infoBox--cases__total {
+  color: rgb(204, 16, 52) !important;
+}
+
+.infoBox--recovered__total {
+  color: rgb(125, 215, 29) !important;
+}
+
+.infoBox--deaths__total {
+  color: rgb(251, 68, 67) !important;
+}
+
+.infoBox__cases {
+  color: #6c757d !important;
+  font-weight: 700 !important;
+  font-size: 1.3rem !important;
+  margin-top: 15px !important;
+}
